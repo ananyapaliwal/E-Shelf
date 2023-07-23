@@ -1,0 +1,48 @@
+.container-height {
+    height: 100vh;
+    background-image: url('book8.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background: linear-gradient(to bottom, #f9f7f6, #b3a197);
+    border-radius: 10px;
+    color: black;
+  }
+  
+  .btn-primary {
+    background: linear-gradient(to bottom right, #9f9690, #442c11);
+    font-size: 200%;
+    width: 55%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100px;
+    opacity: 0.9;
+    font-weight: bold;
+    border: 2px solid #040200;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2d190c; 
+  }
+  
+  .dark-grey-btn {
+    background-color: rgb(86, 79, 79);
+    color: white;
+  }
+  
+  .dark-btn {
+    background-color: rgb(50, 45, 67);
+    color: white;
+  }
+  

@@ -1,0 +1,73 @@
+/* Home.css */
+.Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  background-image: url('book16.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 0 20px;
+}
+
+.Content {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.544); /* Increase the transparency of the background */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; /* Center the Content horizontally within the Container */
+}
+
+.SubContent {
+  text-align: center;
+}
+
+.SubContent h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.SubContent p {
+  color: #fff;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.SubContent p:last-child {
+  margin-bottom: 25px;
+}
+
+.SubContent button {
+  font-weight: bold;
+  margin-top: 30px;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  background-color: transparent;
+  font-size: 1.25rem;
+  border-radius: 5px;
+}
+
+.SubContent button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.TextDiscover {
+  position: absolute;
+  top: 60%;
+  right: 20px; /* Adjust the right position */
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: bold;
+  max-width: 300px; /* Add max-width to limit the width of the text */
+  text-align: right; /* Align the text to the right */
+}

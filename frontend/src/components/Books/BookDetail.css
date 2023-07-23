@@ -1,0 +1,63 @@
+.book-detail-container {
+    height: calc(100vh - 50px);
+    background-image: url('book17.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .book-detail-content {
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 50px auto; 
+  }
+  
+  .book-detail-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .book-detail-form-group {
+    margin-bottom: 20px;
+  }
+  
+  .book-detail-label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .book-detail-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .book-detail-button {
+    background-color: #c9d7e5;
+    color: black;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
+    width: 60%; 
+    margin: 0 auto; 
+    display: block;
+    border: 2px solid #b8cbe0;
+  }
+  
+  .book-detail-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  

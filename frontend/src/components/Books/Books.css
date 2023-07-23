@@ -1,0 +1,30 @@
+.book-page {
+  background-image: url("book11.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.book-card {
+  background-color: #f1f8ff;
+  background-image: linear-gradient(to bottom right, #ece1e1, #d5e3e3);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 90%; /* Increase the width to 90% */
+  margin-top: 160px;
+}
+
+.book-title {
+  font-size: 28px;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.book-table {
+  color: black;
+}

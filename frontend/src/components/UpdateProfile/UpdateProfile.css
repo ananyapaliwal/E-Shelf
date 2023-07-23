@@ -1,0 +1,68 @@
+/* UpdateProfile.css */
+
+.update-profile-container {
+  height: calc(100vh - 50px); /* Adjust the height to leave some space for the header */
+  background-image: url('book14.jpg'); /* Replace 'book14.jpg' with your image file path */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.update-profile-content {
+  max-width: 500px;
+  padding: 30px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-left: 120px; /* Add margin to the left to move the content to the left */
+}
+
+.update-profile-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.update-profile-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.update-profile-form-group {
+  margin-bottom: 20px;
+}
+
+.update-profile-label {
+  font-weight: bold;
+  color: #555;
+}
+
+.update-profile-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.update-profile-button {
+  background-color: #c9d7e5;
+  color: black;
+  padding: 10px;
+  border-radius: 50px; /* Make the button curved */
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s ease;
+  width: 50%; /* Add width to center the button */
+  margin: 0 auto; /* Center the button */
+  display: block; /* Add this to remove the button's default inline display */
+  border: 2px solid #b8cbe0; /* Add a border to the button */
+}
+
+.update-profile-button:hover {
+  background-color: #0056b3;
+}
+
+.update-profile-text-center {
+  text-align: center;
+}
